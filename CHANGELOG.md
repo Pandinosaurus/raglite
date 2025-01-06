@@ -1,3 +1,27 @@
+## v0.6.2 (2025-01-06)
+
+### Fix
+
+- remove unnecessary stop sequence (#84)
+
+## v0.6.1 (2025-01-06)
+
+### Fix
+
+- fix Markdown heading boundary probas (#81)
+- improve (re)insertion speed (#80)
+- **deps**: exclude litellm versions that break get_model_info (#78)
+- conditionally enable `LlamaRAMCache` (#83)
+
+## v0.6.0 (2025-01-05)
+
+### Feat
+
+- add support for Python 3.12 (#69)
+- upgrade from xx_sent_ud_sm to SaT (#74)
+- add streaming tool use to llama-cpp-python (#71)
+- improve sentence splitting (#72)
+
 ## v0.5.1 (2024-12-18)
 
 ### Fix
